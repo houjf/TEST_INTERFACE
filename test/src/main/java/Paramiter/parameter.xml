@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="rt">
+	<parameter name="name" value="张三" />
+	<parameter name="age" value="27" />
+	<test name="yu">
+		<classes>
+			<class name="Paramiter.ParameterTest" />
+		</classes>
+	</test>
+</suite>

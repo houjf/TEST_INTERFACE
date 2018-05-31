@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suit name="test">
+	<test name="runall">
+		<class name="group.GroupsOnClass1" />
+		<class name="group.GroupsOnClass2" />
+		<class name="group.GroupsOnClass3" />
+	</test>
+</suit>

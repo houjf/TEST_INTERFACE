@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [rt]">
+  <parameter name="name" value="张三"/>
+  <parameter name="age" value="27"/>
+  <test thread-count="5" name="yu(failed)">
+    <classes>
+      <class name="Paramiter.ParameterTest">
+        <methods>
+          <include name="para"/>
+        </methods>
+      </class> <!-- Paramiter.ParameterTest -->
+    </classes>
+  </test> <!-- yu(failed) -->
+</suite> <!-- Failed suite [rt] -->
