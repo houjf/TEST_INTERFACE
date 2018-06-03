@@ -1,0 +1,34 @@
+[
+	{
+		"description": "make sure you are geting",
+		"request": 
+		{
+			"uri": "/getdemon",
+			"method": "get"
+		},
+
+		"response": 
+		{
+			"text": "this is the fist geting method"
+		}
+	},
+
+	{
+		"description": "make sure you are geting",
+		"request": 
+		{
+			"uri": "/getdemonparatem",
+			"method": "get",
+			"queries": 
+			{
+				"name": "Aires",
+				"age": "58"
+			}
+		},
+
+		"response": 
+		{
+			"text": "my name is Aires,and I am coming again"
+		}
+	}
+]
